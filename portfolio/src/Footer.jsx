@@ -1,20 +1,25 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faInstagram} from '@fortawesome/free-brands-svg-icons';
+import {faFacebook} from '@fortawesome/free-brands-svg-icons';
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import {faGithub} from '@fortawesome/free-brands-svg-icons';
 
 export default function Footer(){
     return (
         <>
-            <a class="a-footer" href="https://www.instagram.com/den.radevova/" target="_blank" title="instagram link">
-                <i class="fa-brands fa-instagram fa-xl" style="color: #ed93be;"></i>
+            <a className="a-footer" href="https://www.instagram.com/den.radevova/" target="_blank" title="instagram link">
+                <FontAwesomeIcon icon={faInstagram} color="#ed93be" size="xl"/>
             </a>
-            <a class="a-footer" href="https://www.facebook.com/denradevova/" target="_blank" title="facebook link">
-                <i class="fa-brands fa-facebook fa-xl" style="color: #ed93be;"></i>
+            <a className="a-footer" href="https://www.facebook.com/denradevova/" target="_blank" title="facebook link">
+                <FontAwesomeIcon icon={faFacebook} color="#ed93be" size="xl"/>
             </a>
-            <a class="a-footer" href="https://www.linkedin.com/in/denisa-radevov%C3%A1-166a44232/?locale=en_US" target="_blank"
+            <a className="a-footer" href="https://www.linkedin.com/in/denisa-radevov%C3%A1-166a44232/?locale=en_US" target="_blank"
         title="linkedin link">
-                <i class="fa-brands fa-linkedin fa-xl" style="color: #ed93be;"></i>
+                <FontAwesomeIcon icon={faLinkedin} color="#ed93be" size="xl"/>
             </a>
-            <a class="a-footer" href="https://github.com/radevden" target="_blank" title="github link">
-                <i class="fa-brands fa-github fa-xl" style="color: #ed93be;"></i>
+            <a className="a-footer" href="https://github.com/radevden" target="_blank" title="github link">
+                <FontAwesomeIcon icon={faGithub} color="#ed93be" size="xl"/>
             </a>
         </>
     )
