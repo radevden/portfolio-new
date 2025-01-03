@@ -52,7 +52,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-6 col-md-6 mb-4 dif-background second">
                     <h3>Created with JavaScript</h3>
-                </div>
+                </div> 
             </div>
         </div>
     )
