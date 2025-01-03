@@ -9,17 +9,17 @@ export default function Footer(){
     return (
         <>
             <a className="a-footer" href="https://www.instagram.com/den.radevova/" target="_blank" title="instagram link">
-                <FontAwesomeIcon icon={faInstagram} color="#ed93be" size="xl"/>
+                <FontAwesomeIcon className="icon" icon={faInstagram} color="#ed93be" size="xl"/>
             </a>
             <a className="a-footer" href="https://www.facebook.com/denradevova/" target="_blank" title="facebook link">
-                <FontAwesomeIcon icon={faFacebook} color="#ed93be" size="xl"/>
+                <FontAwesomeIcon className="icon" icon={faFacebook} color="#ed93be" size="xl"/>
             </a>
             <a className="a-footer" href="https://www.linkedin.com/in/denisa-radevov%C3%A1-166a44232/?locale=en_US" target="_blank"
         title="linkedin link">
-                <FontAwesomeIcon icon={faLinkedin} color="#ed93be" size="xl"/>
+                <FontAwesomeIcon className="icon" icon={faLinkedin} color="#ed93be" size="xl"/>
             </a>
             <a className="a-footer" href="https://github.com/radevden" target="_blank" title="github link">
-                <FontAwesomeIcon icon={faGithub} color="#ed93be" size="xl"/>
+                <FontAwesomeIcon className="icon" icon={faGithub} color="#ed93be" size="xl"/>
             </a>
         </>
     )

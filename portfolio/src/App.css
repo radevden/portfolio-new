@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+
 body {
     background-color: black !important;
   }
@@ -113,14 +118,11 @@ body {
   }
   
   .row {
-    max-width: 95%;
-    display: block;
-    margin: 0 auto !important;
-    padding: 0 15px important!;
-    background: #161616;
-    border-radius: 5px;
-  }
-  
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
   footer p {
     opacity: 0.5;
   }
@@ -129,11 +131,8 @@ body {
     margin: 3px;
   }
   
-  .fa-brands {
-    font-size: 2em;
-  }
   
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
     h1 {
       font-size: 25px !important;
     }
@@ -216,10 +215,20 @@ body {
       margin-top: 50px;
       font-size: medium;
     }
-  }
-  
-  .col-md-12 {
-    margin: 10px 0;
+
+    .dif-background {
+      background-color: #786467;
+      border-radius: 6px;
+      padding: 10px;
+    }
+
+    .first {
+      order: 1;
+    }
+
+    .second {
+      order: 2;
+    }
   }
   
   .work-h2 {
@@ -227,11 +236,15 @@ body {
     font-size: 40px;
   }
   
-  .col-lg-6 {
-    border-radius: 5px;
-    margin: 6px !important;
-    width: 48% !important;
-  }
+  .col {
+    margin: 0;
+    padding: 0;
+}
+
+.dif-background {
+  background-color: #786467;
+  border-radius: 6px;
+}
   
   .h3-about {
     max-width: 90%;
@@ -306,14 +319,17 @@ body {
   }
   
   .container-main {
-    max-width: 85%;
+    max-width: 95%;
     display: block;
     margin: 0 auto;
-    margin-top: 35px;
-    background-color: #ed93be;
     border-radius: 5px;
     padding: 35px 20px;
-    background: #161616;
+    background: #413f3f;
+    margin-top: 5px;
+  }
+
+  .navbar {
+    background: #413f3f
   }
   
   .h3-text {
