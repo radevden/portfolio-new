@@ -10,7 +10,7 @@ export default function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <a className="nav-link active" aria-current="page" href="#">Home</a>
+                        <a className="nav-link active" aria-current="page" href={Home.jsx}>Home</a>
                         <a className="nav-link" href="#">About</a>
                         <a className="nav-link" href="#">Contact</a>
                     </div>
@@ -19,3 +19,4 @@ export default function Navbar() {
         </nav>
     )
 };
+
