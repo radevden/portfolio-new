@@ -125,9 +125,11 @@ body {
   
   @media (max-width: 768px) {
     h1 {
-      font-size: 25px !important;
+      font-size: 28px !important;
       letter-spacing: 2.5px;
+      margin-top: 30px!important;
     }
+
     h2 {
       font-size: 18px !important;
       letter-spacing: 1.5px;
@@ -142,16 +144,20 @@ body {
       opacity: 0.85;
     }
 
-    h1,
     h2,
     h3 {
-      line-height: 18px !important;
-      margin: 15px 0 !important;
+      line-height: 20px !important;
+      margin: 20px 0 !important;
     }
   
+    #photo-me {
+      max-width: 150px;
+    }
+
     #button {
       padding: 8px 10px;
       margin: 20px 0;
+      font-size: 14px;
     }
   
     .container-index {
@@ -186,7 +192,7 @@ body {
     }
   
     .about-text {
-      font-size: 13px;
+      font-size: 16px;
       margin: 0 auto !important;
       padding: 0 7px !important;
     }
@@ -203,15 +209,15 @@ body {
   
     .submit {
       padding: 5px 20px !important;
-      font-size: 12px !important;
+      font-size: 14px !important;
     }
   
     label {
-      font-size: 13px;
+      font-size: 16px;
     }
   
     footer {
-      font-size: 12px;
+      font-size: 15px;
     }
   
     .links {

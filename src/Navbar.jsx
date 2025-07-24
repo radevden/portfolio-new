@@ -16,9 +16,9 @@ export default function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <a onClick={changeActive} className="nav-link" aria-current="page" href="Home.jsx">Home</a>
-                        <a onClick={changeActive} className="nav-link" href="About.jsx">About</a>
-                        <a onClick={changeActive} className="nav-link" href="#">Contact</a>
+                        <a onClick={changeActive} className="nav-link" aria-current="page" href="App.jsx">Home</a>
+                        <a onClick={changeActive} className="nav-link" href="getintouch.jsx">About</a>
+                        <a onClick={changeActive} className="nav-link" href="Contact.jsx">Contact</a>
                     </div>
                 </div>
             </div>

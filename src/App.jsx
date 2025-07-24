@@ -4,6 +4,7 @@ import Navbar from "./Navbar.jsx"
 import About from "./About.jsx"
 import Footer from "./Footer.jsx"
 
+
 function App() {
   return (
     <div className="App">

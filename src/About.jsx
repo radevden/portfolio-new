@@ -1,6 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import Work from "./Work.jsx";
+import Getintouch from "./getintouch.jsx";
 
 export default function About() {
     return (
@@ -19,7 +20,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="col text-center">
-                    <a href="about.html" id="button" title="get in touch" className="btn">Get in touch</a>
+                    <a href="getintouch.jsx" id="button" title="get in touch" className="btn">Get in touch</a>
                 </div>
                 <Work />
         </div></div>    
