@@ -13,9 +13,8 @@ export default function About() {
                         className="img-fluid rounded" alt="personal photo" id="photo-me" />
                     </div>
                     <div className="col">
-                        <h2>HI, I AM</h2>
                         <h1 className="nameh1">DENISA RADEVOVÁ</h1>
-                        <h3>A junior Front-end developer<div>based in Prague, Czech Republic</div>
+                        <h3>A junior Front-end developer<div>based in Calgary, Canada</div>
                         </h3>
                     </div>
                 </div>
