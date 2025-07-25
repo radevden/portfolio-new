@@ -2,11 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 export default function Navbar() {
-    function changeActive(event){
-        event.preventDefault();
-        let link = document.querySelector(".nav-link");
-        link.classList.add("active");
-    }
     
     return (
         <nav className="navbar sticky-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
@@ -17,9 +12,9 @@ export default function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <Link onClick={changeActive} className="nav-link" aria-current="page" to="/">Home</Link>
-                        <Link onClick={changeActive} className="nav-link" to="/about">About</Link>
-                        <Link onClick={changeActive} className="nav-link" to="/contact">Contact</Link>
+                        <Link  className="nav-link" aria-current="page" to="/">Home</Link>
+                        <Link  className="nav-link" to="/about">About</Link>
+                        <Link  className="nav-link" to="/contact">Contact</Link>
                     </div>
                 </div>
             </div>

@@ -11,7 +11,7 @@ export default function About () {
                  Hi, I am Denisa — Front-End Developer
                  <br/>I build responsive and interactive websites using React.
             </h3>
-            <h4>I’m a front-end developer with a passion for clean, user-friendly interfaces. I’ve built projects with HTML, CSS, JavaScript, and React. Currently learning more about responsive design and improving accessibility.</h4>
+            <h4>I am a front-end developer with a passion for clean, user-friendly interfaces. I’ve built projects with HTML, CSS, JavaScript, and React. Currently learning more about responsive design and improving accessibility.</h4>
 
             <h3>Skills:</h3>
             <h4>
