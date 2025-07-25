@@ -377,3 +377,28 @@ body {
     text-decoration: none;
     font-size: larger;
   }
+
+  .abouth4 {
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: justify;
+  }
+
+  .aboutme {
+    font-family: Roboto;
+    max-width: 95%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  ul {
+    font-size: 18px;
+    list-style-type: none;
+    text-align: left;
+  }
+
+  li {
+    padding: 0;
+    margin: 0;
+  }
+  
