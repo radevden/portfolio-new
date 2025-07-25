@@ -1,27 +1,33 @@
-import React from 'react'
-import './App.css'
-import Navbar from "./Navbar.jsx"
-import About from "./About.jsx"
-import Footer from "./Footer.jsx"
+import { Routes, Route } from 'react-router-dom';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import Home from './Home';
+import About from './About';
+import Contact from './Contact'; 
+import './App.css';
 
-
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Navbar />
       </header>
       <main>
-        <About />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
       </main>
       <footer>
-      <hr/>
-      <Footer />
+        <hr />
+        <Footer />
         <p>
-        This project was coded by Denisa Radevová and is open-sourced on <a href="https://github.com/radevden" target="_blank" rel="noopener noreferrer">GitHub</a> and hosted on Netlify</p>
-        </footer>
+          This project was coded by Denisa Radevová and is open-sourced on{" "}
+          <a href="https://github.com/radevden" target="_blank" rel="noopener noreferrer">GitHub</a>{" "}
+          and hosted on Netlify
+        </p>
+      </footer>
     </div>
   );
 }
-
-export default App

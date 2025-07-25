@@ -1,28 +1,28 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'; 
-import Work from "./Work.jsx";
-import Getintouch from "./getintouch.jsx";
 
-export default function About() {
+export default function About () {
     return (
-        <div id="About" className="container-main">
-            <div className="hero container-index text-center">
-                <div className="row">
-                    <div className="col">
-                        <img
-                        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/112/413/original/582FC0B7-9813-41FF-A950-BD074AE48F66_1_102_o.jpeg?1706364406"
-                        className="img-fluid rounded" alt="personal photo" id="photo-me" />
-                    </div>
-                    <div className="col">
-                        <h1 className="nameh1">DENISA RADEVOVÁ</h1>
-                        <h3>A junior Front-end developer<div>based in Calgary, Canada</div>
-                        </h3>
-                    </div>
-                </div>
-                <div className="col text-center">
-                    <a href="getintouch.jsx" id="button" title="get in touch" className="btn">Get in touch</a>
-                </div>
-                <Work />
-        </div></div>    
-    )
+        <div>
+            <h1>
+                About me:
+            </h1>
+            <h3>
+                 Hi, I am Denisa — Front-End Developer
+                 <br/>I build responsive and interactive websites using React.
+            </h3>
+            <h4>I’m a front-end developer with a passion for clean, user-friendly interfaces. I’ve built projects with HTML, CSS, JavaScript, and React. Currently learning more about responsive design and improving accessibility.</h4>
+
+            <h3>Skills:</h3>
+            <h4>
+                <ul>
+                    <li>
+                    Languages: HTML, CSS, JavaScript
+                    </li>
+                    <li>Frameworks: React, Bootstrap</li>
+                    <li>Tools: Git, VS Code, Figma</li>
+                </ul>
+            </h4>
+        </div>
+    );
 }
