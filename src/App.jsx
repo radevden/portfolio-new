@@ -5,7 +5,7 @@ import Home from './Home';
 import About from './About';
 import Contact from './Contact'; 
 import './App.css';
-
+import Thankyou from './Thankyou';
 export default function App() {
   return (
     <div className="App">
@@ -17,6 +17,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/thankyou" element={<Thankyou />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
