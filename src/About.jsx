@@ -27,7 +27,7 @@ export default function About () {
                     </h4>
                 </div>
                 <div class="col-sm-6 mb-4">
-                    <img src="" alt="me" className="img-fluid rounded" />
+                    <img src={me} alt="me" className="img-fluid rounded" />
                 </div>     
             </div>
         </div>
