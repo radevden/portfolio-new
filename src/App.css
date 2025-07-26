@@ -56,22 +56,7 @@ body {
     margin: 0 auto;
     margin: 40px 0;
   }
-  
-  #submit {
-    padding: 10px 50px !important;
-    background: #ed93be !important;
-    box-shadow: 0px 4px 4px rgba(223, 220, 220, 0.1);
-    border-radius: 10px !important;
-    border: #ed93be !important;
-    justify-content: center;
-    align-items: center;
-    color: #272142 !important;
-    font-size: 14px !important;
-    font-family: Montserrat !important;
-    font-weight: 700 !important;
-    transition: all 200ms ease-in-out !important;
-    float: right;
-  }
+
   
   #button:hover {
     background: #C9ABAF;
@@ -79,11 +64,6 @@ body {
     border: #C9ABAF;
   }
   
-  #submit:hover {
-    background: #C9ABAF;
-    color: #231e3c;
-    border: #C9ABAF;
-  }
   
   footer {
     text-align: center;
@@ -395,6 +375,7 @@ body {
     font-size: 18px;
     list-style-type: none;
     text-align: left;
+    padding-left: 0;
   }
 
   li {
@@ -402,3 +383,56 @@ body {
     margin: 0;
   }
   
+.container-form {
+  max-width: 95%;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0 40px 0;
+}
+
+.name-form {
+  border: 1px #dee2d6 solid;
+  border-radius: var(--bs-border-radius);;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.name-form:focus {
+  color: var(--bs-body-color);
+  background-color: var(--bs-body-bg);
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+  .hcontact {
+    font-size: 22px!important;
+    margin-top: 40px!important;
+  }
+
+  .contactbtn {
+    padding: 3px 25px;
+    background: #eab7d0;
+    box-shadow: 0px 4px 4px rgba(223, 220, 220, 0.1);
+    border-radius: 8px;
+    border: #eab7d0;
+    justify-content: center;
+    align-items: center;
+    color: #272142 !important;
+    font-size: 15px !important;
+    font-family: Montserrat !important;
+    font-weight: 700 !important;
+    transition: all 200ms ease-in-out !important;
+    float: left;
+  }
+
+  .contactbtn:hover {
+    background: #e8c7d7;
+    color: #231e3c;
+    border: #e8c7d7;
+  }
+

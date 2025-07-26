@@ -1,5 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'; 
+import me from './assets/images/me.png';
 
 export default function About () {
     return (
@@ -26,7 +27,7 @@ export default function About () {
                     </h4>
                 </div>
                 <div class="col-sm-6 mb-4">
-                    <img src="" alt="me" />
+                    <img src="" alt="me" className="img-fluid rounded" />
                 </div>     
             </div>
         </div>
